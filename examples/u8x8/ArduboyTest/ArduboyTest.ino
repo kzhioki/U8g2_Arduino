@@ -42,6 +42,9 @@
 #ifdef U8X8_HAVE_HW_SPI
 #include <SPI.h>
 #endif
+#ifdef U8X8_HAVE_HW_I2C
+#include <Wire.h>
+#endif
 
 // Arduboy 10 (Production, Kickstarter Edition)
 U8X8_SSD1306_128X64_NONAME_4W_HW_SPI u8x8(/* cs=*/ 12, /* dc=*/ 4, /* reset=*/ 6);	

@@ -42,6 +42,9 @@
 #ifdef U8X8_HAVE_HW_SPI
 #include <SPI.h>
 #endif
+#ifdef U8X8_HAVE_HW_I2C
+#include <Wire.h>
+#endif
 
 // Please UNCOMMENT one of the contructor lines below
 // U8x8 Contructor List 
